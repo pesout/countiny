@@ -1,0 +1,54 @@
+/*
+************************
+Created by Stepan Pesout
+*****www.pesout.eu******
+*****@stepanpesout******
+************************
+*/
+
+/*WELCOME TO COUNTINY. FOR THE DOCUMENTATION AND HELP VISIT https://pesout.github.io/countiny*/
+
+//Quadratic formula
+function quad(a_kva,b_lin,c_abs,x_koren)
+{
+
+	var diskr = (b_lin * b_lin) - 4 * a_kva * c_abs //D
+
+	if (diskr < 0) {return "No solution."} //If D is less then zero
+	else
+	{
+		var x_jedna = (-b_lin + Math.sqrt(diskr)) / (2*a_kva); //Counting of x1
+		var x_dva = (-b_lin - Math.sqrt(diskr)) / (2*a_kva); //Counting of x2
+
+		if (x_koren == 1) {return x_jedna}
+		if (x_koren == 2) {return x_dva}
+
+		if (x_koren != 1 && x_koren != 2){return "Root undefined."} //2 roots are maximum
+	}
+}
+
+//Factorial
+function fctr(i)
+            {
+                if (i == 0){
+                        return 1; //0! = 1
+                } else {
+                        return i * arguments.callee(i - 1); //Recursive factorial counting
+                       }
+            }
+
+//Cobmination number
+function comb(n, k)
+            {
+		n = n*1;
+		k = k*1;
+		return faktorial(n) / (faktorial(k) * faktorial(n-k));
+            }
+
+//Variation
+function varia(n, k)
+            {
+		n = n*1;
+		k = k*1;
+		return faktorial(n) / faktorial(n-k);
+            }
