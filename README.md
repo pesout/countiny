@@ -1,8 +1,8 @@
 # Countiny
 Tiny script for counting examples of several math situation types. It's still being built.
 
-Use this code to start using:
-```html
+Use this code to start:
+```
 <script src="http://rawgit.com/pesout/countiny/master/countiny.js"></script>
 ```
 
