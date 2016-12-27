@@ -54,3 +54,14 @@ countiny_alog(a,x);
 - Argument: `x`
 - Numerator: `log(x)`
 - Denominator: `log(a)`
+
+### N-th root
+
+```javascript
+countiny_root(x,n);
+```
+
+- Base: `a`
+- Argument: `x`
+- Numerator: `log(x)`
+- Denominator: `log(a)`
