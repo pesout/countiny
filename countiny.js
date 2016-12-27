@@ -9,7 +9,7 @@ Created by Stepan Pesout
 /*WELCOME TO COUNTINY. FOR THE DOCUMENTATION AND HELP VISIT https://pesout.github.io/countiny*/
 
 //Quadratic formula
-function countiny_quad(a_kva,b_lin,c_abs,x_koren)
+function countiny_quad(a_kva, b_lin, c_abs, x_koren)
 {
 
 	var diskr = (b_lin * b_lin) - 4 * a_kva * c_abs //D
@@ -57,4 +57,11 @@ function countiny_vari(n, k)
 function countiny_alog(a, x) 
 {
   	 return Math.log(x) / Math.log(a);
+}
+
+//N-th root
+function countiny_root(x, n) 
+{
+  	 n = 1 / n;
+  	 return Math.pow(x,n);
 }
