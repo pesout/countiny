@@ -60,8 +60,4 @@ countiny_alog(a, x);
 ```javascript
 countiny_root(x, n);
 ```
-
-- Base: `a`
-- Argument: `x`
-- Numerator: `log(x)`
-- Denominator: `log(a)`
+![n-th root formula](https://wikimedia.org/api/rest_v1/media/math/render/svg/5d9845f4838d72b3362cf0dfdd2e78784efd37ac)
