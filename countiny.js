@@ -9,7 +9,7 @@ Created by Stepan Pesout
 /*WELCOME TO COUNTINY. FOR THE DOCUMENTATION AND HELP VISIT https://pesout.github.io/countiny*/
 
 //Quadratic formula
-function quad(a_kva,b_lin,c_abs,x_koren)
+function countiny_quad(a_kva,b_lin,c_abs,x_koren)
 {
 
 	var diskr = (b_lin * b_lin) - 4 * a_kva * c_abs //D
@@ -28,27 +28,33 @@ function quad(a_kva,b_lin,c_abs,x_koren)
 }
 
 //Factorial
-function fctr(i)
-            {
-                if (i == 0){
-                        return 1; //0! = 1
-                } else {
-                        return i * arguments.callee(i - 1); //Recursive factorial counting
-                       }
-            }
+function countiny_fctr(i)
+{
+         if (i == 0){
+                return 1; //0! = 1
+         } else {
+                return i * arguments.callee(i - 1); //Recursive factorial counting
+                }
+         }
 
 //Cobmination number
-function comb(n, k)
-            {
-		n = n*1;
-		k = k*1;
-		return faktorial(n) / (faktorial(k) * faktorial(n-k));
-            }
+function countiny_comb(n, k)
+{
+	 n = n*1;
+	 k = k*1;
+	 return faktorial(n) / (faktorial(k) * faktorial(n-k));
+}
 
 //Variation
-function varia(n, k)
-            {
-		n = n*1;
-		k = k*1;
-		return faktorial(n) / faktorial(n-k);
-            }
+function countiny_vari(n, k)
+{
+	 n = n*1;
+	 k = k*1;
+	 return faktorial(n) / faktorial(n-k);
+}
+
+//Arbitary-based logarithm
+function countiny_alog(a, x) 
+{
+  	 return Math.log(x) / Math.log(a);
+}
