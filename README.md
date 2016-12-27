@@ -52,3 +52,5 @@ countiny_alog(a,x);
 
 - Base: `a`
 - Argument: `x`
+- Numerator: `log(x)`
+- Denominator: `log(a)`
