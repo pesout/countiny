@@ -52,4 +52,3 @@ countiny_alog(a,x);
 
 - Base: `a`
 - Argument: `x`
-- log<sup>a</sup>(x)
