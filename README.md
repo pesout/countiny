@@ -12,7 +12,7 @@ Use this code to start:
 ### Quadratic formula
 
 ```javascript
-countiny_quad(a,b,c,x);
+countiny_quad(a, b, c, x);
 ```
 
 - `A`, `B` and `C` - Coefficients
@@ -29,7 +29,7 @@ countiny_fctr(a);
 ### Cobmination number
 
 ```javascript
-countiny_comb(n,k);
+countiny_comb(n, k);
 ```
 
 - Numerator: `n!`
@@ -38,7 +38,7 @@ countiny_comb(n,k);
 ### Variation
 
 ```javascript
-countiny_vari(n,k);
+countiny_vari(n, k);
 ```
 
 - Numerator: `n!`
@@ -47,7 +47,7 @@ countiny_vari(n,k);
 ### Arbitary-based logarithm
 
 ```javascript
-countiny_alog(a,x);
+countiny_alog(a, x);
 ```
 
 - Base: `a`
@@ -58,7 +58,7 @@ countiny_alog(a,x);
 ### N-th root
 
 ```javascript
-countiny_root(x,n);
+countiny_root(x, n);
 ```
 
 - Base: `a`
