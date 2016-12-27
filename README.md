@@ -14,6 +14,7 @@ Use this code to start:
 ```javascript
 countiny_quad(a,b,c,x);
 ```
+
 - `A`, `B` and `C` - Coefficients
 - `X` - A root number (1 or 2)
 
@@ -22,6 +23,7 @@ countiny_quad(a,b,c,x);
 ```javascript
 countiny_fctr(a);
 ```
+
 - A - input number: `a!`
 
 ### Cobmination number
@@ -29,6 +31,7 @@ countiny_fctr(a);
 ```javascript
 countiny_comb(n,k);
 ```
+
 - Numerator: `n!`
 - Denominator: `k! * (n-k)!`
 
@@ -37,6 +40,7 @@ countiny_comb(n,k);
 ```javascript
 countiny_vari(n,k);
 ```
+
 - Numerator: `n!`
 - Denominator: `(n-k)!`
 
@@ -45,5 +49,6 @@ countiny_vari(n,k);
 ```javascript
 countiny_alog(a,x);
 ```
+
 - Base: `a`
 - Argument: `x`
