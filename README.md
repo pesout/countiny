@@ -24,8 +24,6 @@ countiny_quad(a, b, c, x);
 countiny_fctr(a);
 ```
 
-- A - input number: `a!`
-
 ### Cobmination number
 
 ```javascript
@@ -73,3 +71,8 @@ countiny_dgrd(x);
 ```javascript
 countiny_dgrd_pi(x, pi_sign);
 ```
+
+- `x`: input
+- `pi_sign`: logic variable (`true` or `false`)
+ - If pi_sign is true, output will look like `2π`
+ - If not, output will look like `2`
