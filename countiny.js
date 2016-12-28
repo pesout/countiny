@@ -65,3 +65,9 @@ function countiny_root(x, n)
   	 n = 1 / n;
   	 return Math.pow(x,n);
 }
+
+//Degrees to radians
+function countiny_dgrd(x)
+{
+	return x*(Math.PI/180)
+}
