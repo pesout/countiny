@@ -69,5 +69,18 @@ function countiny_root(x, n)
 //Degrees to radians
 function countiny_dgrd(x)
 {
-	return x*(Math.PI/180)
+	 return x*(Math.PI/180)
+}
+
+//Degrees to radians expressed in multiples of pi
+function countiny_dgrd_pi(x, pi_sign)
+{
+ 	 if (pi_sign)
+  	 {
+   		return (x*(Math.PI/180)) / Math.PI + "&pi;"
+  	 }
+	 else
+  	 {
+	  	return (x*(Math.PI/180)) / Math.PI
+	 }
 }
