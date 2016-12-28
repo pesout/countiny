@@ -88,5 +88,5 @@ function countiny_dgrd_pi(x, pi_sign)
 //Radians to degrees
 function countiny_rddg(x)
 {
-	return x/(Math.PI/180)
+	 return x/(Math.PI/180)
 }
