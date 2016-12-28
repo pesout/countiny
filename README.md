@@ -72,7 +72,13 @@ countiny_dgrd(x);
 countiny_dgrd_pi(x, pi_sign);
 ```
 
-- `x`: input
+- `x` - input
 - `pi_sign`: logic variable (`true` or `false`)
  - If pi_sign is true, output will look like `2π`
  - If not, output will look like `2`
+
+### Radians to degrees
+
+```javascript
+countiny_rddg(x);
+```
