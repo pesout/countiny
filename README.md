@@ -61,3 +61,15 @@ countiny_alog(a, x);
 countiny_root(x, n);
 ```
 - ![n-th root formula](https://wikimedia.org/api/rest_v1/media/math/render/svg/5d9845f4838d72b3362cf0dfdd2e78784efd37ac)
+
+### Degrees to radians
+
+```javascript
+countiny_dgrd(x);
+```
+
+### Degrees to radians expressed in multiples of pi
+
+```javascript
+countiny_dgrd_pi(x, pi_sign);
+```
