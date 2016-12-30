@@ -102,3 +102,9 @@ function countiny_perc_whol(b, c)
 {
        	 return (c/b)*100
 }
+
+//Percentage: Percentages, which means a part of the whole number
+function countiny_perc_pers(c, a)
+{
+	 return (c/a)*100
+}
