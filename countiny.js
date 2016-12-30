@@ -90,3 +90,9 @@ function countiny_rddg(x)
 {
 	 return x/(Math.PI/180)
 }
+
+//Percentage: Part of the whole number
+function countiny_perc_part(a, b)
+{
+	 return (a/100)*b
+}
