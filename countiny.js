@@ -6,9 +6,13 @@ Created by Stepan Pesout
 ************************
 */
 
-/*WELCOME TO COUNTINY. FOR THE DOCUMENTATION AND HELP VISIT https://pesout.github.io/countiny*/
+/*-------------------------------------------------------------------------------------------------------*/
+/*--- WELCOME TO THE COUNTINY. FOR THE DOCUMENTATION AND HELP VISIT https://pesout.github.io/countiny ---*/
+/*-------------------------------------------------------------------------------------------------------*/
 
-//Quadratic formula
+
+/*QUADRATIC FORMULA*/
+
 function countiny_quad(a_kva, b_lin, c_abs, x_koren)
 {
 
@@ -26,6 +30,9 @@ function countiny_quad(a_kva, b_lin, c_abs, x_koren)
 		if (x_koren != 1 && x_koren != 2){return "Root undefined."} //2 roots are maximum
 	}
 }
+
+
+/*COMBINATORICS*/
 
 //Factorial
 function countiny_fctr(i)
@@ -53,11 +60,17 @@ function countiny_vari(n, k)
 	 return faktorial(n) / faktorial(n-k);
 }
 
+
+/*LOGARITHMIC*/
+
 //Arbitary-based logarithm
 function countiny_alog(a, x) 
 {
   	 return Math.log(x) / Math.log(a);
 }
+
+
+/*ROOTS*/
 
 //N-th root
 function countiny_root(x, n) 
@@ -65,6 +78,9 @@ function countiny_root(x, n)
   	 n = 1 / n;
   	 return Math.pow(x,n);
 }
+
+
+/*ANGLES*/
 
 //Degrees to radians
 function countiny_dgrd(x)
@@ -91,19 +107,22 @@ function countiny_rddg(x)
 	 return x/(Math.PI/180)
 }
 
-//Percentage: A part of the whole number
+
+/*PERCENTAGE*/
+
+//A part of the whole number
 function countiny_perc_part(a, b)
 {
 	 return (a/100)*b
 }
 
-//Percentage: The whole number from a part
+//The whole number from a part
 function countiny_perc_whol(b, c)
 {
        	 return (c/b)*100
 }
 
-//Percentage: Percentages, which means a part of the whole number
+//Percentages, which means a part of the whole number
 function countiny_perc_pers(c, a)
 {
 	 return (c/a)*100
