@@ -44,6 +44,8 @@ countiny_vari(n, k);
 - Numerator: `n!`
 - Denominator: `(n-k)!`
 
+### Logarithmic
+
 #### Arbitary-based logarithm
 
 ```javascript
@@ -54,6 +56,8 @@ countiny_alog(a, x);
 - Argument: `x`
 - Numerator: `log(x)`
 - Denominator: `log(a)`
+
+### Roots
 
 #### N-th root
 
