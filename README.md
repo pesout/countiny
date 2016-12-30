@@ -1,5 +1,5 @@
 # Countiny
-Tiny script for counting examples of several math situation types. It's still being built. Using of this library makes JavaScript counting easier.
+Tiny script for counting examples of several math situation types. It's still being built. Using of this library can make JavaScript counting easier.
 
 Use this code to start:
 
