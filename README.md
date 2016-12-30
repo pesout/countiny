@@ -71,16 +71,16 @@ countiny_root(x, n);
 #### Degrees to radians
 
 ```javascript
-countiny_dgrd(x);
+countiny_dgrd(deg);
 ```
 
 #### Degrees to radians expressed in multiples of pi
 
 ```javascript
-countiny_dgrd_pi(x, pi_sign);
+countiny_dgrd_pi(deg, pi_sign);
 ```
 
-- `x` - input
+- `deg` - input
 - `pi_sign`: logic variable (`true` or `false`)
  - If pi_sign is true, output will look like `2π`
  - If not, output will look like `2`
@@ -88,7 +88,7 @@ countiny_dgrd_pi(x, pi_sign);
 #### Radians to degrees
 
 ```javascript
-countiny_rddg(x);
+countiny_rddg(rad);
 ```
 
 ### Percentage
