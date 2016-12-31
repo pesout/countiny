@@ -110,13 +110,13 @@ function countiny_rddg(x)
 
 /*PERCENTAGE*/
 
-//A part of the whole number
+//A part of a whole number and a value of percentages (of this part)
 function countiny_perc_part(a, b)
 {
 	 return (a/100)*b
 }
 
-//The whole number from a part
+//A whole number from a part and a value of percentages
 function countiny_perc_whol(b, c)
 {
        	 return (c/b)*100
