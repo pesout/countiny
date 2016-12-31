@@ -83,9 +83,9 @@ function countiny_root(x, n)
 /*ANGLES*/
 
 //Degrees to radians
-function countiny_dgrd(x)
+function countiny_dgrd(deg)
 {
-	 return x*(Math.PI/180)
+	 return deg*(Math.PI/180)
 }
 
 //Degrees to radians expressed in multiples of pi
@@ -102,9 +102,9 @@ function countiny_dgrd_pi(deg, pi_sign)
 }
 
 //Radians to degrees
-function countiny_rddg(x)
+function countiny_rddg(rad)
 {
-	 return x/(Math.PI/180)
+	 return rad/(Math.PI/180)
 }
 
 
