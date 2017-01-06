@@ -127,3 +127,11 @@ function countiny_perc_pers(c, a)
 {
 	 return (c/a)*100
 }
+
+
+/*IS A NUMBER IN A RANGE?*/
+
+function countiny_rang(a, min, max)
+{
+	return a <= max && a >= min;
+}
