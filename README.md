@@ -114,3 +114,9 @@ countiny_perc_whol(b, c)
 ```javascript
 countiny_perc_pers(b, c)
 ```
+
+### Is a number in a range?
+
+```javascript
+countiny_perc_pers(b, c)
+```
