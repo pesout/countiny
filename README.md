@@ -106,17 +106,22 @@ countiny_perc_part(a, b);
 #### A whole number from a part and a value of percentages
 
 ```javascript
-countiny_perc_whol(b, c)
+countiny_perc_whol(b, c);
 ```
 
 #### Percentages, which means a part of the whole number
 
 ```javascript
-countiny_perc_pers(b, c)
+countiny_perc_pers(b, c);
 ```
 
 ### Is a number in a range?
 
 ```javascript
-countiny_perc_pers(b, c)
+countiny_rang(a, min, max);
 ```
+
+- `a` - the number
+- `min` - minimal value in the range
+- `max` - maximal value in the range
+- This function returns `true` or `false`
