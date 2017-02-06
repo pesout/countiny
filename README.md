@@ -1,7 +1,5 @@
 # Countiny
 
-[pesout.github.io/countiny](http://pesout.github.io/countiny)
-
 Tiny script for counting examples of several math situation types. It's still being built. Using of this library can make JavaScript counting easier.
 
 Use this code to start:
