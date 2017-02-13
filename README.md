@@ -11,6 +11,7 @@ Use this code to start:
 
 ## Features
 
+
 ### Quadratic formula
 
 ```javascript
@@ -19,6 +20,7 @@ countiny_quad(a, b, c, x);
 
 - `A`, `B` and `C` - Coefficients
 - `X` - A root number (1 or 2)
+
 
 ### Combinatorics
 
