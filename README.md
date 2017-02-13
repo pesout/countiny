@@ -8,7 +8,6 @@ Use this code to start:
 <script src="http://rawgit.com/pesout/countiny/master/countiny.js"></script>
 ```
 
-
 ## Features
 
 ### Quadratic formula
