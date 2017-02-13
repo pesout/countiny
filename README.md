@@ -11,7 +11,6 @@ Use this code to start:
 
 ## Features
 
-
 ### Quadratic formula
 
 ```javascript
