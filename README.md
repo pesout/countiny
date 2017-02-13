@@ -71,6 +71,7 @@ countiny_root(x, n);
 ```
 - ![n-th root formula](https://wikimedia.org/api/rest_v1/media/math/render/svg/5d9845f4838d72b3362cf0dfdd2e78784efd37ac)
 
+
 ### Angles
 
 #### Degrees to radians
@@ -95,6 +96,7 @@ countiny_dgrd_pi(deg, pi_sign);
 ```javascript
 countiny_rddg(rad);
 ```
+
 
 ### Percentage
 
