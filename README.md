@@ -139,6 +139,8 @@ countiny_rang(a, min, max);
 - `max` - maximal value in the range
 - This function returns `true` or `false`
 
+
+
 ### Rounding
 
 #### Rounding to N decimal places
