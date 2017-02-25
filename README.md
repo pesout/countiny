@@ -138,3 +138,11 @@ countiny_rang(a, min, max);
 - `min` - minimal value in the range
 - `max` - maximal value in the range
 - This function returns `true` or `false`
+
+### Rounding
+
+#### Rounding to N decimal places
+
+```javascript
+countiny_nrnd(num, dec)
+```
