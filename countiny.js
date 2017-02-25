@@ -135,3 +135,14 @@ function countiny_rang(a, min, max)
 {
 	return a <= max && a >= min;
 }
+
+
+/*ROUNDING*/
+
+//Rounding to N decimal places
+function countiny_nrnd(num, dec)
+{
+	return Math.round(num * Math.pow(10, dec_place)) / Math.pow(10, dec_place);	
+	
+	return c;
+}
