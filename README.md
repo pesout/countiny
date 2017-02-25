@@ -146,5 +146,8 @@ countiny_rang(a, min, max);
 #### Rounding to N decimal places
 
 ```javascript
-countiny_nrnd(num, dec)
+countiny_nrnd(num, dec);
 ```
+
+- `num` - an input number
+- `dec` - how many decimal places
