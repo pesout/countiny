@@ -13,14 +13,12 @@ Created by Stepan Pesout
 
 /*QUADRATIC FORMULA*/
 
-function countiny_quad(a_kva, b_lin, c_abs, x_koren)
-{
+function countiny_quad(a_kva, b_lin, c_abs, x_koren) {
 
 	var diskr = (b_lin * b_lin) - 4 * a_kva * c_abs //D
 
-	if (diskr < 0) {return "No solution."} //If D is less then zero
-	else
-	{
+	if (diskr < 0) return "No solution." //If D is less then zero
+	else {
 		var x_jedna = (-b_lin + Math.sqrt(diskr)) / (2*a_kva); //Counting of x1
 		var x_dva = (-b_lin - Math.sqrt(diskr)) / (2*a_kva); //Counting of x2
 
@@ -35,26 +33,20 @@ function countiny_quad(a_kva, b_lin, c_abs, x_koren)
 /*COMBINATORICS*/
 
 //Factorial
-function countiny_fctr(i)
-{
-         if (i == 0){
-                return 1; //0! = 1
-         } else {
-                return i * arguments.callee(i - 1); //Recursive factorial counting
-                }
-         }
+function countiny_fctr(i) {
+         if (i == 0) return 1; //0! = 1
+         else return i * arguments.callee(i - 1);    
+}
 
 //Cobmination number
-function countiny_comb(n, k)
-{
+function countiny_comb(n, k) {
 	 n = n*1;
 	 k = k*1;
 	 return faktorial(n) / (faktorial(k) * faktorial(n-k));
 }
 
 //Variation
-function countiny_vari(n, k)
-{
+function countiny_vari(n, k) {
 	 n = n*1;
 	 k = k*1;
 	 return faktorial(n) / faktorial(n-k);
@@ -64,8 +56,7 @@ function countiny_vari(n, k)
 /*LOGARITHMIC*/
 
 //Arbitary-based logarithm
-function countiny_alog(a, x) 
-{
+function countiny_alog(a, x) {
   	 return Math.log(x) / Math.log(a);
 }
 
@@ -73,8 +64,7 @@ function countiny_alog(a, x)
 /*ROOTS*/
 
 //N-th root
-function countiny_root(x, n) 
-{
+function countiny_root(x, n) {
   	 n = 1 / n;
   	 return Math.pow(x,n);
 }
@@ -83,27 +73,18 @@ function countiny_root(x, n)
 /*ANGLES*/
 
 //Degrees to radians
-function countiny_dgrd(deg)
-{
+function countiny_dgrd(deg) {
 	 return deg*(Math.PI/180)
 }
 
 //Degrees to radians expressed in multiples of pi
-function countiny_dgrd_pi(deg, pi_sign)
-{
- 	 if (pi_sign)
-  	 {
-   		return (deg*(Math.PI/180)) / Math.PI + "&pi;"
-  	 }
-	 else
-  	 {
-	  	return (deg*(Math.PI/180)) / Math.PI
-	 }
+function countiny_dgrd_pi(deg, pi_sign) {
+ 	 if (pi_sign) return (deg*(Math.PI/180)) / Math.PI + "&pi;";
+	 else return (deg*(Math.PI/180)) / Math.PI;
 }
 
 //Radians to degrees
-function countiny_rddg(rad)
-{
+function countiny_rddg(rad) {
 	 return rad/(Math.PI/180)
 }
 
@@ -111,28 +92,24 @@ function countiny_rddg(rad)
 /*PERCENTAGE*/
 
 //A part of a whole number and a value of percentages (of this part)
-function countiny_perc_part(a, b)
-{
+function countiny_perc_part(a, b) {
 	 return (a/100)*b
 }
 
 //A whole number from a part and a value of percentages
-function countiny_perc_whol(b, c)
-{
+function countiny_perc_whol(b, c) {
        	 return (c/b)*100
 }
 
 //Percentages, which means a part of the whole number
-function countiny_perc_pers(c, a)
-{
+function countiny_perc_pers(c, a) {
 	 return (c/a)*100
 }
 
 
 /*IS A NUMBER IN A RANGE?*/
 
-function countiny_rang(a, min, max)
-{
+function countiny_rang(a, min, max) {
 	return a <= max && a >= min;
 }
 
@@ -140,7 +117,6 @@ function countiny_rang(a, min, max)
 /*ROUNDING*/
 
 //Rounding to N decimal places
-function countiny_nrnd(num, dec)
-{
+function countiny_nrnd(num, dec) {
 	return Math.round(num * Math.pow(10, dec)) / Math.pow(10, dec);	
 }
