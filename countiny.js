@@ -2,7 +2,6 @@
 ************************
 Created by Stepan Pesout
 *****www.pesout.eu******
-*****@stepanpesout******
 ************************
 */
 
