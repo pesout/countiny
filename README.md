@@ -1,6 +1,6 @@
 # Countiny
 
-Tiny script for counting examples of several math situations. Every function expects valid input.
+Tiny script for counting examples of several math situations. All functions expect valid input.
 
 It's possible to include it directy:
 
