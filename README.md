@@ -1,17 +1,11 @@
 # Countiny
 
-Tiny script for counting examples of several math situation types. It's still being built. Using of this library can make JavaScript counting easier.
+Tiny script for counting examples of several math situations.
 
-Use this code to start:
+It's possible to include it directy:
 
 ``` html
-<script src="http://rawgit.com/pesout/countiny/master/countiny.js"></script>
-```
-
-or this sequence for JS files:
-
-``` javascript
-document.write('<script src="http://rawgit.com/pesout/countiny/master/countiny.js"></script>');
+<script src="http://pesout.github.io/countiny.js/countiny.js"></script>
 ```
 
 ## Features
