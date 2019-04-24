@@ -40,14 +40,14 @@ function countiny_fctr(i) {
 function countiny_comb(n, k) {
 	 n = n*1;
 	 k = k*1;
-	 return faktorial(n) / (faktorial(k) * faktorial(n-k));
+	 return countiny_fctr(n) / (countiny_fctr(k) * countiny_fctr(n-k));
 }
 
 //Variation
 function countiny_vari(n, k) {
 	 n = n*1;
 	 k = k*1;
-	 return faktorial(n) / faktorial(n-k);
+	 return countiny_fctr(n) / countiny_fctr(n-k);
 }
 
 
